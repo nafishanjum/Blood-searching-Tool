@@ -1,0 +1,64 @@
+.mapContainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.content{
+    
+    display: inline-block;
+    position: absolute;
+    width:400px;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    background-color: #040011;
+    border-radius: 15px;
+    opacity: 0.85;
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+}
+.i{
+    z-index:1000;
+}
+.m{
+    z-index: -1;
+}
+.searc{
+    display: inline-block;
+    position: absolute;
+    width:400px;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    background-color: #040011;
+    border-radius: 15px;
+    opacity: 0.85;
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+}
+.s{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    
+    width:400px;
+    top: 1000;
+    left: 10;
+    margin-top: 100px;
+    margin-left:10px;
+    
+    border-radius: 15px;
+    opacity: 0.85;
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+{
+   "blood_banks" :[
+       {
+           "properties":{
+                "name":"Quantam"
+           },
+           "geometry" : {
+               "coordinates" : [23.739027,90.415592]
+           }
+
+       },
+
+       {
+        "properties":{
+             "name":"RED DROP"
+        },
+        "geometry" : {
+            "coordinates" : [23.725275,90.373614]
+        }
+
+    },
+
+    {
+        "properties":{
+             "name":"Badhan Blood Transfusion Center"
+        },
+        "geometry" : {
+            "coordinates" : [23.728641, 90.396682]
+        }
+
+    },
+
+    {
+        "properties":{
+             "name":"Blood Bank - Bangladesh Red Crescent"
+        },
+        "geometry" : {
+            "coordinates" : [23.763640, 90.369744]
+        }
+
+    },
+
+    {
+        "properties":{
+             "name":"Creative Blood Bank And Transfusion Center"
+        },
+        "geometry" : {
+            "coordinates" : [23.723382, 90.400177]
+        }
+
+    }
+
+
+   ] 
+}

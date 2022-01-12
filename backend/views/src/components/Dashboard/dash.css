@@ -1,0 +1,29 @@
+.content{
+    
+    background-color: rgb(54,54,66);
+    border-radius: 5px solid rgb(4, 146, 202);
+    
+    width: 300px;
+    
+}
+.i{
+    z-index:1000;
+}
+.m{
+    z-index: -1;
+}
+.search{
+    display: inline-block;
+    position: absolute;
+    width:400px;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    background-color: #040011;
+    border-radius: 15px;
+    opacity: 0.85;
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+}

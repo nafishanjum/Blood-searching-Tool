@@ -1,0 +1,115 @@
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    left:32%;
+}
+.search{
+  position: fixed;
+  top:10;
+  left:50%;
+  right:50%;
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(163, 27, 27);
+  margin-bottom:25px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 20px 25px 0 rgba(139, 5, 5, 0.2); 
+
+}
+.navbar{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    min-width: 500px;
+    
+}
+
+.button{
+    justify-content: right;
+    border-radius: 12px;
+    border-color: rgb(153, 16, 172);
+}
+
+.logbutton{
+    position: fixed;
+    top: 0;
+    right:0;
+    
+}
+.modal2 {
+  /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 35%;
+  
+  right: 50%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+ /* Fallback color */
+ ; 
+  }
+.modal {
+  /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 50%;
+  top: 50%;
+  right: 50%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); 
+  }
+  .close{
+   
+        position: fixed;
+        left: 50%;
+        right: 50%;
+        top: 85%;
+        
+   
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .h3{
+    font-size: small;
+  } 
+  .blood_tag{
+    background-color: rgb(3, 95, 52);
+    width: 45px;
+    border-radius: 7px;
+    text-align: center;
+  }
+  .user{
+    font-style: oblique;
+    font-family: fantasy;
+  }
